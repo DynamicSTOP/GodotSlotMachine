@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://ek335gi61kql"]
+
+[ext_resource type="Texture2D" uid="uid://cha2ijq6tteeo" path="res://img/seven.png" id="1_2rlgv"]
+[ext_resource type="Script" path="res://bit.gd" id="1_vsyjp"]
+
+[node name="Node2D" type="Control"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 100.0
+offset_bottom = 100.0
+script = ExtResource("1_vsyjp")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_2rlgv")
